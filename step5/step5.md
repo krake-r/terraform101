@@ -26,7 +26,7 @@ Instance pricing at the time of writing (in July 2020) for this is $0.0118 per h
 
 ## The aws_instance resource
 
-In main.cf take a look at the `aws_instance` resource:
+In main.tf take a look at the `aws_instance` resource:
 
     resource "aws_instance" "example-ec2-instance" {}
 
